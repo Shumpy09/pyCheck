@@ -1,9 +1,7 @@
 from datetime import date, timedelta
 
-def days_diff(a,b):
-    pass
-
-
+def days_diff(a, b):
+    return abs(date(*a) - date(*b)).days
 
 
 print(days_diff((1982, 4, 19), (1982, 4, 22)))
